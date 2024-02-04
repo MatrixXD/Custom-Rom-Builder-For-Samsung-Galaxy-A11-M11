@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       GSI:
-        description: 'direct link for Gsi image '
+        description: 'Bezpośredni link do obrazu Gsi '
         required: true
         default: 'https://sourceforge.net/projects/andyyan-gsi/files/lineage-19.x/lineage-19.1-20230715-UNOFFICIAL-a64_bgN.img.xz'        
       ARCH:
@@ -15,7 +15,7 @@ on:
         required: true
         default: '32'                
       NAME:
-        description: 'Rom Name'
+        description: 'Nazwa Roma'
         required: true
         default: 'LineageOS_19.1_A11_M11_ARM32_Gapps'                
 
