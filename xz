@@ -2,9 +2,9 @@
 
 echo ""
 echo "####################################"
-echo "#  Extracing GSI                   #"
+echo "#  Ekstraktowanie GSI                   #"
 echo "####################################"
-echo "#   Please Wait........            #"
+echo "#   Proszę czekać........            #"
 echo "####################################"
 echo ""	
 
@@ -16,7 +16,7 @@ mv ./temp/*.img ./temp/system.img
 
 echo ""
 echo "####################################"
-echo "#  Checking the system image type  #"
+echo "#  Sprawdzanie typu obrazu systemu  #"
 echo "####################################"
 echo "#                                  #"
 echo "####################################"
@@ -43,21 +43,21 @@ convert_to_raw() {
 # Check if the provided image is already in raw format
 if is_raw "$input_image"; then
     echo ""
-	echo "####################################"
-	echo "#    The image is already in       #"
-	echo "#    raw format                    #"
-	echo "####################################"
-	echo "#                                  #"
-	echo "####################################"
+	echo "########################################"
+	echo "#    system jest już dostępny          #"
+	echo "#    format surowy                     #"
+	echo "########################################"
+	echo "#                                      #"
+	echo "########################################"
 	echo ""	
 
 else
     echo ""
 	echo "####################################"
-	echo "#    Converting the image to       #"
-	echo "#    raw format....                #"
+	echo "#    Konwersja systemu do formatu       #"
+	echo "#    raw format....                     #"
 	echo "####################################"
-	echo "# Please Wait........              #"
+	echo "# Proszę czekać........                 #"
 	echo "####################################"
     echo ""
   convert_to_raw 
@@ -66,7 +66,7 @@ else
 fi
     echo ""
 	echo "####################################"
-	echo "#    Convert Succesfull            #"
+	echo "#   Udana konwersja                #"
 	echo "####################################"
 	echo "#                                  #"
 	echo "####################################"
