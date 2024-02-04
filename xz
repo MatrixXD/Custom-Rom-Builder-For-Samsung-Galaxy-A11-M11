@@ -57,7 +57,7 @@ else
 	echo "#    Konwersja systemu do formatu       #"
 	echo "#    raw format....                     #"
 	echo "####################################"
-	echo "# Proszę czekać........                 #"
+	echo "#    Proszę czekać........              #"
 	echo "####################################"
     echo ""
   convert_to_raw 
