@@ -12,7 +12,8 @@ mv ./temp/*.xz ./temp/system.img.xz
 xz -d ./temp/system.img.xz
 rm -rf ./temp/*.xz
 mv ./temp/*.img ./temp/system.img
-
+e2fsck -f ./temp/image.img
+resize2fs ./temp/image.img 3200M
 
 echo ""
 echo "####################################"
