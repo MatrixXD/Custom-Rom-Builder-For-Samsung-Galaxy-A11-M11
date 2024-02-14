@@ -13,11 +13,8 @@ xz -d ./temp/system.img.xz
 rm -rf ./temp/*.xz
 mv ./temp/*.img ./temp/system.img
 e2fsck -f ./temp/system.img
-resize2fs ./temp/system.img 910000
-e2fsck -f ./temp/system.img
-resize2fs ./temp/system.img 850000
-e2fsck -f ./temp/system.img
-resize2fs ./temp/system.img 800000
+resize2fs ./temp/system.img 861802
+
 
 echo ""
 echo "####################################"
