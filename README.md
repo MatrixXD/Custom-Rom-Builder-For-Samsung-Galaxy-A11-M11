@@ -3,7 +3,7 @@
 
 <br>⚬ Narzędzie to może utworzyć pełny do możliwości flashowania zip z dowolnego gsi</br>.
 Narzędzie to obsługuje zarówno arm32, jak i arm64.
-Arm64 wciąż nie jest obsługiwany
+Arm64 jest już obsługiwany
 
 
 #Jeśli chcesz zbudować niestandardowy rom arm32.
