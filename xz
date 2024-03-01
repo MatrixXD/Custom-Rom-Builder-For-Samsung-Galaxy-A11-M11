@@ -15,7 +15,7 @@ xz -d ./temp/system.img.xz
 rm -rf ./temp/*.xz
 mv ./temp/*.img ./temp/system.img
 
-resize2fs ./temp/system.img 861802
+resize2fs ./temp/system.img 864500
 
 echo ""
 echo "####################################"
