@@ -8,10 +8,13 @@ echo "#   Proszę czekać........            #"
 echo "####################################"
 echo ""	
 
-resize2fs ./temp/system.img.xz 861802
+resize2fs ./temp/system.img.xz 864500
 
 mv ./temp/*.xz ./temp/system.img.xz
 xz -d ./temp/system.img.xz
+
+resize2fs ./temp/system.img.xz 864500
+
 rm -rf ./temp/*.xz
 mv ./temp/*.img ./temp/system.img
 
