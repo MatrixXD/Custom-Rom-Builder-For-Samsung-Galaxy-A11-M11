@@ -14,13 +14,10 @@ resize2fs ./temp/system.img.xz 864500
 
 mv ./temp/*.xz ./temp/system.img.xz
 xz -d ./temp/system.img.xz
-
-resize2fs ./temp/system.img.xz 864500
-
 rm -rf ./temp/*.xz
 mv ./temp/*.img ./temp/system.img
 
-resize2fs ./temp/system.img 864500
+resize2fs ./temp/system.img 854500
 
 echo ""
 echo "####################################"
