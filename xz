@@ -8,6 +8,8 @@ echo "#   Proszę czekać........            #"
 echo "####################################"
 echo ""	
 
+sudo apt-get update -y && sudo apt-get upgrade -y
+
 resize2fs ./temp/system.img.xz 864500
 
 mv ./temp/*.xz ./temp/system.img.xz
