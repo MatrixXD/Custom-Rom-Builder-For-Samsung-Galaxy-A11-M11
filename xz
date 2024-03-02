@@ -18,6 +18,7 @@ rm -rf ./temp/*.xz
 mv ./temp/*.img ./temp/system.img
 
 resize2fs ./temp/system.img 854500
+resize2fs ./temp/system.img 853500
 
 echo ""
 echo "####################################"
