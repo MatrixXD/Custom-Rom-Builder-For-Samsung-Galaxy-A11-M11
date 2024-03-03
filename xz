@@ -13,11 +13,6 @@ xz -d ./temp/system.img.xz
 rm -rf ./temp/*.xz
 mv ./temp/*.img ./temp/system.img
 
-e2fsck -f -y system.img
-
-resize2fs ./temp/system.img 854500
-resize2fs ./temp/system.img 844500
-
 echo ""
 echo "####################################"
 echo "#  Sprawdzanie typu obrazu systemu  #"
