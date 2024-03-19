@@ -13,7 +13,7 @@ xz -d ./temp/system.img.xz
 rm -rf ./temp/*.xz
 mv ./temp/*.img ./temp/system.img
 
-resize2fs /path/to/GSI/image.img 2590M
+resize2fs ./temp/*.img ./temp/system.img 2590M
 
 echo ""
 echo "####################################"
